@@ -47,8 +47,8 @@ const getRandomMove = () => {
     const outcomeP = document.createElement('p');
     outcomeP.setAttribute("id", "outcome");
     outcomeP.class = "outcome";
+    outcomeP.textContent = outcome;
     document.body.append(outcomeP)
-    document.getElementById("outcome").textContent = outcome;
   };
 
   
